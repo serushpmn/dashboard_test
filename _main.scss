@@ -1,0 +1,38 @@
+.cards_section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.cards_section__cards {
+  display: flex;
+  flex: 0 0 50%;
+  min-width: 50%;
+  height: fit-content;
+  padding: 10px;
+}
+.card {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  flex-grow: 1;
+
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 36px 0px;
+
+  // margin: 10px 30px;
+}
+.card__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  button,
+  a {
+    padding: 15px;
+    margin: 10px 10px 0 0;
+  }
+}
+h4 {
+  text-transform: uppercase;
+  color: $secondary_color;
+}
+@import "buttons";

@@ -1,0 +1,491 @@
+.cards_section__cards button {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.cards_section__cards .btn_solid button:hover {
+  opacity: 0.8;
+}
+.cards_section__cards .btn_solid #primary {
+  background-color: $primary_color;
+}
+.cards_section__cards .btn_solid #secondary {
+  background-color: $secondary_color;
+}
+.cards_section__cards .btn_solid #success {
+  background-color: $success_color;
+}
+.cards_section__cards .btn_solid #info {
+  background-color: $info_color;
+}
+.cards_section__cards .btn_solid #warning {
+  color: $dark_color;
+  background-color: $warning_color;
+}
+.cards_section__cards .btn_solid #danger {
+  background-color: $danger_color;
+}
+.cards_section__cards .btn_solid #focus {
+  background-color: $focus_color;
+}
+.cards_section__cards .btn_solid #alt {
+  background-color: $alt_color;
+}
+.cards_section__cards .btn_solid #light {
+  background-color: $light_color;
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards_section__cards .btn_solid #dark {
+  background-color: $dark_color;
+}
+
+.cards_section__cards .btn_solid a {
+  color: #3f6cd8;
+}
+.cards_section__cards .btn_solid a:hover {
+  text-decoration: underline;
+}
+.cards_section__cards .color_transition button {
+  border: 1px solid;
+}
+
+.cards_section__cards .color_transition #primary {
+  color: $primary_color;
+}
+
+.cards_section__cards .color_transition #secondary {
+  color: $secondary_color;
+}
+.cards_section__cards .color_transition #success {
+  color: $success_color;
+}
+.cards_section__cards .color_transition #info {
+  color: $info_color;
+}
+.cards_section__cards .color_transition #warning {
+  color: $warning_color;
+}
+.cards_section__cards .color_transition #danger {
+  color: $danger_color;
+}
+.cards_section__cards .color_transition #focus {
+  color: $focus_color;
+}
+.cards_section__cards .color_transition #alt {
+  color: $alt_color;
+}
+.cards_section__cards .color_transition #light {
+  color: $light_color;
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards_section__cards .color_transition #dark {
+  color: $dark_color;
+}
+.cards_section__cards .color_transition a {
+  color: #3f6cd8;
+}
+.cards_section__cards .color_transition a:hover {
+  text-decoration: underline;
+}
+
+.cards_section__cards .color_transition #primary:hover {
+  background-color: $primary_color;
+  color: $white_color;
+}
+.cards_section__cards .color_transition #secondary:hover {
+  color: $white_color;
+  background-color: $secondary_color;
+}
+.cards_section__cards .color_transition #success:hover {
+  color: $white_color;
+  background-color: $success_color;
+}
+.cards_section__cards .color_transition #info:hover {
+  color: $white_color;
+  background-color: $info_color;
+}
+.cards_section__cards .color_transition #warning:hover {
+  color: $dark_color;
+  border-color: $warning_color;
+  background-color: $warning_color;
+}
+.cards_section__cards .color_transition #danger:hover {
+  color: $white_color;
+  background-color: $danger_color;
+}
+.cards_section__cards .color_transition #focus:hover {
+  color: $white_color;
+  background-color: $focus_color;
+}
+.cards_section__cards .color_transition #alt:hover {
+  color: $white_color;
+  background-color: $alt_color;
+}
+.cards_section__cards .color_transition #light:hover {
+  background-color: $light_color;
+
+  border-color: $light_color;
+}
+.cards_section__cards .color_transition #dark:hover {
+  background-color: $dark_color;
+  color: $white_color;
+}
+
+/* COLOR TRANSITION NO BORDERS */
+.cards_section__cards .color_transition_no_border a {
+  color: $secondary_color !important;
+}
+.cards_section__cards .color_transition_no_border a:hover {
+  color: #3f6cd8 !important;
+}
+
+.cards_section__cards .color_transition_no_border button {
+  border: none;
+  background-color: transparent;
+}
+
+.cards_section__cards .color_transition_no_border #primary {
+  color: $primary_color;
+}
+
+.cards_section__cards .color_transition_no_border #secondary {
+  color: $secondary_color;
+}
+.cards_section__cards .color_transition_no_border #success {
+  color: $success_color;
+}
+.cards_section__cards .color_transition_no_border #info {
+  color: $info_color;
+}
+.cards_section__cards .color_transition_no_border #warning {
+  color: $warning_color;
+}
+.cards_section__cards .color_transition_no_border #danger {
+  color: $danger_color;
+}
+.cards_section__cards .color_transition_no_border #focus {
+  color: $focus_color;
+}
+.cards_section__cards .color_transition_no_border #alt {
+  color: $alt_color;
+}
+.cards_section__cards .color_transition_no_border #light {
+  color: $light_color;
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards_section__cards .color_transition_no_border #dark {
+  color: $dark_color;
+}
+.cards_section__cards .color_transition_no_border a {
+  color: #3f6cd8;
+}
+
+.cards_section__cards .color_transition_no_border #primary:hover {
+  background-color: $primary_color;
+  color: $white_color;
+}
+.cards_section__cards .color_transition_no_border #secondary:hover {
+  color: $white_color;
+  background-color: $secondary_color;
+}
+.cards_section__cards .color_transition_no_border #success:hover {
+  color: $white_color;
+  background-color: $success_color;
+}
+.cards_section__cards .color_transition_no_border #info:hover {
+  color: $white_color;
+  background-color: $info_color;
+}
+.cards_section__cards .color_transition_no_border #warning:hover {
+  color: $dark_color;
+  border-color: $warning_color;
+  background-color: $warning_color;
+}
+.cards_section__cards .color_transition_no_border #danger:hover {
+  color: $white_color;
+  background-color: $danger_color;
+}
+.cards_section__cards .color_transition_no_border #focus:hover {
+  color: $white_color;
+  background-color: $focus_color;
+}
+.cards_section__cards .color_transition_no_border #alt:hover {
+  color: $white_color;
+  background-color: $alt_color;
+}
+.cards_section__cards .color_transition_no_border #light:hover {
+  background-color: $light_color;
+  border-color: $light_color;
+}
+.cards_section__cards .color_transition_no_border #dark:hover {
+  background-color: $dark_color;
+  color: $white_color;
+}
+.cards_section__cards .active_state #primary {
+  background-color: darken($primary_color, 10%);
+}
+.cards_section__cards .active_state #secondary {
+  background-color: darken($secondary_color, 10%);
+}
+.cards_section__cards .active_state #success {
+  background-color: darken($success_color, 10%);
+}
+.cards_section__cards .active_state #info {
+  background-color: darken($info_color, 10%);
+}
+.cards_section__cards .active_state #warning {
+  color: $dark_color;
+  background-color: darken($warning_color, 10%);
+}
+.cards_section__cards .active_state #danger {
+  background-color: darken($danger_color, 10%);
+}
+.cards_section__cards .active_state #focus {
+  background-color: darken($focus_color, 10%);
+}
+.cards_section__cards .active_state #alt {
+  background-color: darken($alt_color, 10%);
+}
+.cards_section__cards .active_state #light {
+  background-color: darken($light_color, 10%);
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards_section__cards .active_state #dark {
+  background-color: darken($dark_color, 10%);
+}
+.cards_section__cards .active_state a {
+  color: #3f6cd8;
+}
+//hover shine
+.hover_shine button {
+  position: relative;
+}
+
+.cards_section__cards .hover_shine button {
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: none;
+  }
+}
+.cards_section__cards .hover_shine button {
+  &:hover:after {
+    width: 120%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+.cards_section__cards .hover_shine #primary {
+  background-color: $primary_color;
+}
+
+.cards_section__cards .hover_shine #secondary {
+  background-color: $secondary_color;
+}
+.cards_section__cards .hover_shine #success {
+  background-color: $success_color;
+}
+.cards_section__cards .hover_shine #info {
+  background-color: $info_color;
+}
+.cards_section__cards .hover_shine #warning {
+  color: $dark_color;
+  background-color: $warning_color;
+}
+.cards_section__cards .hover_shine #danger {
+  background-color: $danger_color;
+}
+.cards_section__cards .hover_shine #focus {
+  background-color: $focus_color;
+}
+.cards_section__cards .hover_shine #alt {
+  background-color: $alt_color;
+}
+.cards_section__cards .hover_shine #light {
+  background-color: $light_color;
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards_section__cards .hover_shine #dark {
+  background-color: $dark_color;
+}
+
+.cards_section__cards .hover_shine a {
+  color: #3f6cd8;
+}
+
+//disabled state
+.cards_section__cards .disabled_state button {
+  cursor: default !important;
+  opacity: 0.6;
+}
+.cards_section__cards .disabled_state #primary {
+  background-color: $primary_color;
+}
+.cards_section__cards .disabled_state #secondary {
+  background-color: $secondary_color;
+}
+.cards_section__cards .disabled_state #success {
+  background-color: $success_color;
+}
+.cards_section__cards .disabled_state #info {
+  background-color: $info_color;
+}
+.cards_section__cards .disabled_state #warning {
+  color: $dark_color;
+  background-color: $warning_color;
+}
+.cards_section__cards .disabled_state #danger {
+  background-color: $danger_color;
+}
+.cards_section__cards .disabled_state #focus {
+  background-color: $focus_color;
+}
+.cards_section__cards .disabled_state #alt {
+  background-color: $alt_color;
+}
+.cards_section__cards .disabled_state #light {
+  background-color: $light_color;
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards_section__cards .disabled_state #dark {
+  background-color: $dark_color;
+}
+
+.cards_section__cards .disabled_state a {
+  color: #3f6cd8;
+}
+
+// Blocl Level Starts Here
+.block_level {
+  .card__buttons {
+    flex-direction: column;
+    button {
+      background-color: $primary_color;
+      &:hover {
+        background-color: darken($primary_color, 10%);
+      }
+    }
+  }
+}
+
+//wider sizing starts here
+.wider_sizing {
+  flex-direction: column;
+  flex: 0 0 50%;
+  // align-items: center;
+  button {
+    background-color: $primary_color;
+    &:hover {
+      background-color: darken($primary_color, 10%);
+    }
+  }
+  .card__buttons {
+    justify-content: center;
+    font-weight: 400;
+  }
+  .wider,
+  .sizing {
+    .card__buttons {
+      text-align: center;
+      align-items: center;
+    }
+
+    #large {
+      font-size: 1rem;
+      padding: 0.5rem 2rem;
+    }
+    #normal {
+      font-size: 0.8rem;
+      padding: 0.3rem 1rem;
+    }
+    #small {
+      font-size: 0.7rem;
+      padding: 0.3rem 0.8rem;
+    }
+  }
+}
+// chechbox
+.checkbox_buttons {
+  display: flex;
+  flex-direction: row;
+  box-shadow: none;
+  [type="checkbox"] {
+    width: 3rem;
+    height: 3rem;
+    color: $alt_color;
+    vertical-align: middle;
+    appearance: none;
+    background: none;
+    background-color: $primary_color;
+    transition: background 300ms;
+    cursor: pointer;
+  }
+  [type="checkbox"]:checked {
+    background-color: darken($primary_color, 10%);
+  }
+}
+
+// #btn_check_1 {
+//   width: 2rem;
+//   height: 2rem;
+// }
+// #btn_check_2 {
+//   width: 2.5rem;
+//   height: 2.5rem;
+// }
+// #btn_check_3 {
+//   width: 3rem;
+//   height: 3rem;
+// }
+
+.button_check {
+  position: relative;
+  width: auto;
+
+  span {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+  }
+  label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn_check-first {
+    font-size: 0.7rem;
+  }
+  .btn_check-second {
+    font-size: 0.8rem;
+  }
+  .btn_check_third span {
+    font-size: 0.9rem;
+  }
+  .left_btn {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  .right_btn {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
+.brk_line {
+  border-bottom: 1px solid #eee;
+}

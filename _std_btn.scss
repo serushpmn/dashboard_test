@@ -1,0 +1,48 @@
+.standard_buttons {
+  background-color: lighten($main_color, 3%);
+  padding: 100px 30px 30px 30px;
+  margin-bottom: 30px;
+
+  .standard_buttons__left_side {
+    justify-content: center;
+    gap: 10px;
+    img {
+      border-radius: 0.25rem;
+      box-shadow: 6px 3px 15px -5px #00000034;
+      //   box-shadow: 3px 3px 15px rgb(73 73 73 / 15%);
+    }
+    .standard_buttons__left_side--text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    h2 {
+      color: $dark_color;
+      font-weight: 400;
+    }
+    p {
+      color: $secondary_color;
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+  .standard_buttons__right_side {
+    gap: 10px;
+    button {
+      padding: 10px;
+      box-shadow: 6px 3px 15px -5px #00000034;
+    }
+  }
+  #star_icon {
+    background-color: $dark_color;
+    &:hover {
+      background: darken($dark_color, 10%);
+    }
+  }
+  #crt_new {
+    background-color: $success_color;
+    &:hover {
+      background: darken($success_color, 10%);
+    }
+  }
+}

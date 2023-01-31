@@ -1,0 +1,60 @@
+.navbar {
+  padding: 10px 30px;
+  background-color: $white_color;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  .left_nav {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+    .left_nav__search {
+      input {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        text-align: center;
+      }
+    }
+    ul {
+      display: inline-flex;
+      justify-content: space-between;
+      gap: 25px;
+    }
+  }
+  .right_nav {
+    gap: 20px;
+    .right_menu {
+      display: inline-flex;
+      justify-content: flex-end;
+      gap: 10px;
+      button {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: none;
+        background-color: $primary_color;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+    .profile {
+      width: 44px;
+      height: 44px;
+      img {
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+    .break_line {
+      border-left: 1px solid lighten($secondary_color, 20%);
+      height: 44px;
+    }
+  }
+}
+.navbar {
+  box-shadow: 0 0 40px rgba(73, 73, 73, 0.35);
+}

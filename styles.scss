@@ -1,0 +1,77 @@
+$main_color: #ebeef0;
+$header_color: #fafbfc;
+$primary_color: #3f69d6;
+$secondary_color: #6c757d;
+$success_color: #3ac47d;
+$info_color: #16aaff;
+$warning_color: #f7b924;
+$danger_color: #d92550;
+$focus_color: #444054;
+$alt_color: #794c8a;
+$light_color: #eeeeee;
+$dark_color: #343a40;
+$green_color: #3ac47d;
+$white_color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: darken($secondary_color, 50%);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+button {
+  cursor: pointer;
+  color: #fff;
+  background-color: none;
+  border: none;
+  border-radius: 0.25rem;
+}
+body {
+  background-color: $main_color;
+}
+.container {
+  padding: 30px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@import "nav";
+
+@import "std_btn";
+
+.btn_tabs {
+  padding: 0 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  a {
+    color: $dark_color;
+    padding: 10px;
+    border-radius: 0.25rem;
+  }
+  :hover {
+    color: #fff;
+    background-color: $primary_color;
+    box-shadow: 0px 3px 15px -1px #0000008f;
+  }
+  .active {
+    padding: 10px;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: $primary_color;
+    box-shadow: 0px 3px 15px -1px #0000008f;
+  }
+}
+@import "main";

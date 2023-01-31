@@ -1,0 +1,36 @@
+.cards .hover_shine #primary {
+  background-color: $primary_color;
+}
+.cards .hover_shine #secondary {
+  background-color: $secondary_color;
+}
+.cards .hover_shine #success {
+  background-color: $success_color;
+}
+.cards .hover_shine #info {
+  background-color: $info_color;
+}
+.cards .hover_shine #warning {
+  background-color: $warning_color;
+}
+.cards .hover_shine #danger {
+  background-color: $danger_color;
+}
+.cards .hover_shine #focus {
+  background-color: $focus_color;
+}
+.cards .hover_shine #alt {
+  background-color: $alt_color;
+}
+.cards .hover_shine #light {
+  background-color: $light_color;
+  color: #1d1d1d;
+  border-color: $light_color;
+}
+.cards .hover_shine #dark {
+  background-color: $dark_color;
+}
+
+.cards .hover_shine a {
+  color: #3f6cd8;
+}
