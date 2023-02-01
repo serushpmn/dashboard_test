@@ -11,11 +11,11 @@
   padding: 10px;
 }
 .card {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
   flex-grow: 1;
-
   border-radius: 0.5rem;
   padding: 1.25rem;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 36px 0px;

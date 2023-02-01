@@ -185,6 +185,7 @@ body {
 }
 
 .card {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
@@ -711,12 +712,11 @@ h4 {
      -moz-appearance: none;
           appearance: none;
   background: none;
-  background-color: #3f69d6;
   transition: background 300ms;
   cursor: pointer;
 }
 .checkbox_buttons [type=checkbox]:checked {
-  background-color: #2851ba;
+  filter: brightness(0.8);
 }
 
 .button_check {
@@ -759,4 +759,139 @@ h4 {
 
 .brk_line {
   border-bottom: 1px solid #eee;
+}
+
+.first_row input[type=checkbox] {
+  width: 50px !important;
+  height: 30px !important;
+  background-color: #3f69d6 !important;
+}
+
+.second_row input[type=checkbox] {
+  width: 60px !important;
+  height: 35px !important;
+  background-color: #d92550 !important;
+}
+
+.third_row input[type=checkbox] {
+  width: 70px !important;
+  height: 40px !important;
+  background-color: #794c8a !important;
+}
+
+.radio_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: none;
+  overflow: hidden;
+}
+.radio_buttons input[type=radio] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: none;
+}
+.radio_buttons label {
+  color: #fff;
+  padding: 0.8rem 1.4rem;
+  font-weight: 600;
+  background-color: #f7b924;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+}
+.radio_buttons input[type=radio]:checked + label {
+  opacity: 1;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.first_row input[type=radio] + label {
+  opacity: 0.8;
+  background-color: #5479da;
+  padding: 1rem 1.5rem;
+}
+
+.second_row input[type=radio] + label {
+  background-color: #f8c13d;
+  padding: 1rem 2rem;
+  color: #000;
+}
+
+.third_row input[type=radio] + label {
+  background-color: #3f474e;
+  padding: 1rem 2.5rem;
+}
+
+.loading_buttons {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 100%;
+  min-width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+.loading_buttons button {
+  padding: 15px 20px;
+}
+.loading_buttons .card__buttons {
+  justify-content: center;
+}
+
+.cards_section__cards .loading button:hover {
+  opacity: 0.8;
+}
+
+.cards_section__cards .loading #primary {
+  background-color: #3f69d6;
+}
+
+.cards_section__cards .loading #secondary {
+  background-color: #6c757d;
+}
+
+.cards_section__cards .loading #success {
+  background-color: #3ac47d;
+}
+
+.cards_section__cards .btn_solid #info {
+  background-color: #16aaff;
+}
+
+.cards_section__cards .loading #warning {
+  color: #343a40;
+  background-color: #f7b924;
+}
+
+.cards_section__cards .loading #danger {
+  background-color: #d92550;
+}
+
+.cards_section__cards .loading #focus {
+  background-color: #444054;
+}
+
+.cards_section__cards .loading #alt {
+  background-color: #794c8a;
+}
+
+.cards_section__cards .loading #light {
+  background-color: #eeeeee;
+  color: #1d1d1d;
+  border-color: #eeeeee;
+}
+
+.cards_section__cards .loading #dark {
+  background-color: #343a40;
+}
+
+.cards_section__cards .loading a {
+  color: #3f6cd8;
 }/*# sourceMappingURL=styles.css.map */
