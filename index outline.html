@@ -87,14 +87,15 @@
       </section>
       <!-- button tabs starts Here -->
       <div class="btn_tabs">
-        <a href="index.html" class="active">Solid</a><a href="index outline.html">Outline</a
+        <a href="index.html">Solid</a><a href="index outline.html" class="active">Outline</a
         ><a href="index outline 2X.html">Outline 2X</a><a href="index Dashed.html">Dashed</a>
       </div>
       <!-- MAIN CARD SECTION STARTS HERE -->
       <section class="cards_section">
+        <!-- color transition  -->
         <div class="cards_section__cards">
-          <div class="card btn_solid flex">
-            <h4>SOLID</h4>
+          <div class="card outline_color_transition flex">
+            <h4>color states</h4>
             <div class="card__buttons">
               <button id="primary">Primary</button
               ><button id="secondary">Secondary</button
@@ -107,57 +108,10 @@
               ><a href="#" id="link">link</a>
             </div>
           </div>
-        </div>
+        </div> 
+        <!-- active state  -->
         <div class="cards_section__cards">
-          <div class="card color_transition flex">
-            <h4>color transition</h4>
-            <div class="card__buttons">
-              <button id="primary">Primary</button
-              ><button id="secondary">Secondary</button
-              ><button id="success">Success</button
-              ><button id="info">Info</button
-              ><button id="warning">Warning</button
-              ><button id="danger">Danger</button
-              ><button id="focus">Focus</button><button id="alt">Alt</button
-              ><button id="light">Light</button><button id="dark">Dark</button
-              ><a href="#" id="link">link</a>
-            </div>
-          </div>
-        </div>
-        <div class="cards_section__cards">
-          <div class="card color_transition_no_border flex">
-            <h4>color transition no border</h4>
-            <div class="card__buttons">
-              <button id="primary">Primary</button
-              ><button id="secondary">Secondary</button
-              ><button id="success">Success</button
-              ><button id="info">Info</button
-              ><button id="warning">Warning</button
-              ><button id="danger">Danger</button
-              ><button id="focus">Focus</button><button id="alt">Alt</button
-              ><button id="light">Light</button><button id="dark">Dark</button
-              ><a href="#" id="link">link</a>
-            </div>
-          </div>
-        </div>
-        <div class="cards_section__cards">
-          <div class="card hover_shine flex">
-            <h4>hover shine</h4>
-            <div class="card__buttons">
-              <button id="primary">Primary</button
-              ><button id="secondary">Secondary</button
-              ><button id="success">Success</button
-              ><button id="info">Info</button
-              ><button id="warning">Warning</button
-              ><button id="danger">Danger</button
-              ><button id="focus">Focus</button><button id="alt">Alt</button
-              ><button id="light">Light</button><button id="dark">Dark</button
-              ><a href="#" id="link">link</a>
-            </div>
-          </div>
-        </div>
-        <div class="cards_section__cards">
-          <div class="card active_state flex">
+          <div class="card outline_active_state flex">
             <h4>active state</h4>
             <div class="card__buttons">
               <button id="primary">Primary</button
@@ -172,8 +126,9 @@
             </div>
           </div>
         </div>
+        <!-- disable state  -->
         <div class="cards_section__cards">
-          <div class="card disabled_state flex">
+          <div class="card outline_disabled_state flex">
             <h4>disable</h4>
             <div class="card__buttons">
               <button id="primary">Primary</button
@@ -188,8 +143,9 @@
             </div>
           </div>
         </div>
+        <!-- Block level  -->
         <div class="cards_section__cards">
-          <div class="card block_level flex">
+          <div class="card outline_block_level flex">
             <h4>block level</h4>
             <div class="card__buttons">
               <button>Block Large</button>
@@ -198,9 +154,9 @@
             </div>
           </div>
         </div>
-        <div class="wider_sizing">
+        <!-- Wider  -->
           <div class="cards_section__cards">
-            <div class="card wider flex">
+            <div class="card outline_wider flex">
               <h4>wider</h4>
               <div class="card__buttons">
                 <button id="large">Wider Large</button>
@@ -209,8 +165,9 @@
               </div>
             </div>
           </div>
+          <!-- Sizing  -->
           <div class="cards_section__cards">
-            <div class="card sizing flex">
+            <div class="card outline_sizing flex">
               <h4>sizing</h4>
               <div class="card__buttons">
                 <button id="large">Large</button>
@@ -219,13 +176,12 @@
               </div>
             </div>
           </div>
-        </div>
-
+          <!-- checkbox buttons  -->
         <div class="cards_section__cards">
           <div class="card">
             <h4>checkbox buttons</h4>
 
-            <div class="checkbox_buttons card first_row">
+            <div class="outline_checkbox_buttons card first_row">
               <div class="button_check">
                 <input
                   type="checkbox"
@@ -321,47 +277,48 @@
         <div class="cards_section__cards">
           <div class="card">
             <h4>radio buttons</h4>
-            <div class="radio_buttons first_row card">
-              <input type="radio" name="radio" id="one_left" checked />
+            <div class="outline_radio_buttons outline_first_row card">
+              <input type="radio" name="radio" id="one_left" class="left_btn" checked />
               <label class="testtest" for="one_left">Left (pre_checked)</label>
               <input type="radio" name="radio" id="one_middle" />
               <label for="one_middle">Middle</label>
-              <input type="radio" name="radio" id="one_right" />
+              <input type="radio" name="radio" id="one_right" class="right_btn" />
               <label for="one_right">Right</label>
             </div>
             <div class="brk_line"></div>
-            <div class="radio_buttons second_row card">
-              <input type="radio" name="radio" id="two_left" checked />
+            <div class="outline_radio_buttons outline_second_row card">
+              <input type="radio" name="radio" id="two_left" class="left_btn" checked />
               <label for="two_left">Left (pre_checked)</label>
               <input type="radio" name="radio" id="two_middle" />
               <label for="two_middle">Middle</label>
-              <input type="radio" name="radio" id="two_right" />
+              <input type="radio" name="radio" id="two_right" class="right_btn" />
               <label for="two_right">Right</label>
             </div>
             <div class="brk_line"></div>
-            <div class="radio_buttons third_row card">
-              <input type="radio" name="radio" id="three_left" checked />
+            <div class="outline_radio_buttons outline_third_row card">
+              <input type="radio" name="radio" id="three_left" class="left_btn" checked />
               <label for="three_left">Left (pre_checked)</label>
               <input type="radio" name="radio" id="three_middle" />
               <label for="three_middle">Middle</label>
-              <input type="radio" name="radio" id="three_right" />
+              <input type="radio" name="radio" id="three_right" class="right_btn" />
               <label for="three_right">Right</label>
             </div>
           </div>
         </div>
+        <!-- Loading button  -->
         <div class="cards_section__cards loading_buttons">
-          <div class="card loading flex">
+          <div class="card outline_loading flex">
             <h4>Loading Buttons</h4>
             <div class="card__buttons">
-              <button id="primary">Primary</button
-              ><button id="secondary">Secondary</button
-              ><button id="success">Success</button
-              ><button id="info">Info</button
-              ><button id="warning">Warning</button
-              ><button id="danger">Danger</button
-              ><button id="focus">Focus</button><button id="alt">Alt</button
-              ><button id="light">Light</button><button id="dark">Dark</button
-              ><a href="#" id="link">link</a>
+              <button id="primary">Expand Left</button
+              ><button id="secondary">Expand Right</button
+              ><button id="success">Zoom In</button
+              ><button id="info">Zoom Out</button
+                ><button id="warning">Slide Left</button
+              ><button id="danger">Silde Right</button
+              ><button id="focus">Slide Up</button><button id="alt">Slide Down</button
+              ><button id="light">Expand Up</button><button id="dark">Expand Down</button
+              >
             </div>
           </div>
         </div>

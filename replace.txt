@@ -1,36 +1,38 @@
-.cards .hover_shine #primary {
+.cards_section__cards .outline_disabled_state #primary {
   background-color: $primary_color;
 }
-.cards .hover_shine #secondary {
+.cards_section__cards .outline_disabled_state #secondary {
   background-color: $secondary_color;
 }
-.cards .hover_shine #success {
+.cards_section__cards .outline_disabled_state #success {
   background-color: $success_color;
 }
-.cards .hover_shine #info {
+.cards_section__cards .outline_disabled_state #info {
   background-color: $info_color;
 }
-.cards .hover_shine #warning {
+.cards_section__cards .outline_disabled_state #warning {
+  color: $dark_color;
   background-color: $warning_color;
 }
-.cards .hover_shine #danger {
+.cards_section__cards .outline_disabled_state #danger {
   background-color: $danger_color;
 }
-.cards .hover_shine #focus {
+.cards_section__cards .outline_disabled_state #focus {
   background-color: $focus_color;
 }
-.cards .hover_shine #alt {
+.cards_section__cards .outline_disabled_state #alt {
   background-color: $alt_color;
 }
-.cards .hover_shine #light {
+.cards_section__cards .outline_disabled_state #light {
   background-color: $light_color;
   color: #1d1d1d;
   border-color: $light_color;
 }
-.cards .hover_shine #dark {
+.cards_section__cards .outline_disabled_state #dark {
   background-color: $dark_color;
 }
 
-.cards .hover_shine a {
+.cards_section__cards .outline_disabled_state a {
   color: #3f6cd8;
+  cursor: default;
 }

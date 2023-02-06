@@ -22,6 +22,7 @@
 
   // margin: 10px 30px;
 }
+
 .card__buttons {
   display: flex;
   flex-wrap: wrap;
@@ -36,3 +37,8 @@ h4 {
   color: $secondary_color;
 }
 @import "buttons";
+@import "footer";
+
+@import "outline";
+@import "outline_2x";
+@import "dashed";

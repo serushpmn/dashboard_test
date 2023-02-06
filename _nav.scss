@@ -1,60 +1,165 @@
-.navbar {
-  padding: 10px 30px;
-  background-color: $white_color;
-  position: fixed;
+.header .nav {
+  background-color: $header_color;
+  height: 60px;
   width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(41, 41, 41, 0.2);
   z-index: 10;
+}
 
-  .left_nav {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
+.left_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  .search_bar {
+    position: relative;
 
-    .left_nav__search {
-      input {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        text-align: center;
+    input {
+      padding: 0 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ddd;
+      border: none;
+      cursor: pointer;
+      color: transparent;
+
+      &:focus {
+        outline: none;
+        width: 200px;
+        border-radius: 0.25rem;
+        color: $secondary_color;
       }
     }
-    ul {
-      display: inline-flex;
-      justify-content: space-between;
-      gap: 25px;
-    }
-  }
-  .right_nav {
-    gap: 20px;
-    .right_menu {
-      display: inline-flex;
-      justify-content: flex-end;
-      gap: 10px;
-      button {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        border: none;
-        background-color: $primary_color;
-        text-align: center;
+    label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      i {
+        font-size: 1.2rem;
+        color: $primary_color;
         cursor: pointer;
+        transform: scaleX(-1);
       }
-    }
-    .profile {
-      width: 44px;
-      height: 44px;
-      img {
-        border-radius: 50%;
-        cursor: pointer;
-      }
-    }
-    .break_line {
-      border-left: 1px solid lighten($secondary_color, 20%);
-      height: 44px;
     }
   }
 }
-.navbar {
-  box-shadow: 0 0 40px rgba(73, 73, 73, 0.35);
+.mega_menu {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    li {
+      button {
+        border: none;
+        background: none;
+        color: $secondary_color;
+        font-size: 1rem;
+        cursor: pointer;
+        &:hover {
+          color: darken($secondary_color, 30%);
+        }
+        span {
+          margin-right: 5px;
+          color: lighten($primary_color, 25%);
+          :hover {
+            color: lighten($secondary_color, 30%);
+          }
+        }
+        label {
+          font-weight: 500;
+          display: inline-block;
+          color: #fff;
+          background-color: $danger_color;
+          //   padding: 2px 6px;
+          width: 20px;
+          border-radius: 50%;
+          text-align: center;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.right_menu {
+  display: flex;
+  justify-content: space-between;
+  .flag_menu {
+    display: flex;
+    justify-content: center;
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      //   gap: 10px;
+      li button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        margin-left: 10px;
+      }
+    }
+    .bar {
+      background-color: rgba($primary-color, 0.3);
+      color: rgba($primary-color, 1);
+      &:hover {
+        background-color: rgba($primary-color, 0.4);
+      }
+    }
+    .horn {
+      background-color: rgba($danger_color, 0.3);
+      color: rgba($danger_color, 1);
+      &:hover {
+        background-color: rgba($danger_color, 0.4);
+      }
+    }
+    .flag {
+      background-color: rgba($alt_color, 0.3);
+      color: rgba($alt_color, 1);
+      &:hover {
+        background-color: rgba($alt_color, 0.4);
+      }
+    }
+    .chart {
+      background-color: rgba($success_color, 0.3);
+      color: rgba($success_color, 1);
+      &:hover {
+        background-color: rgba($success_color, 0.4);
+      }
+    }
+  }
+  .profile {
+    button {
+      margin-right: 10px;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .hamburger_menu {
+    display: flex;
+    justify-content: center;
+    .hamburger {
+      color: $secondary_color;
+      font-size: 1.4rem;
+      &:hover {
+        color: $secondary_color;
+        opacity: 0.8;
+      }
+    }
+  }
 }

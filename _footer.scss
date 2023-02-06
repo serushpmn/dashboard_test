@@ -1,0 +1,34 @@
+.footer {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  background-color: $header_color;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left_footer {
+    button {
+      font-size: 1.5rem;
+      color: $danger_color;
+      &:hover {
+        color: darken($danger_color, 10%);
+      }
+    }
+  }
+
+  .right_footer {
+    i {
+      color: lighten($primary_color, 30%);
+      margin-right: 5px;
+    }
+    button,
+    a {
+      font-size: 0.9rem;
+      color: $secondary_color;
+    }
+  }
+}

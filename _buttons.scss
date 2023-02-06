@@ -432,37 +432,11 @@
     transition: background 300ms;
     cursor: pointer;
   }
-  // [type="radio"] {
-  //   width: 90px;
-  //   height: 40px;
-  //   color: $alt_color;
-  //   vertical-align: middle;
-  //   appearance: none;
-  //   background: none;
-  //   // background-color: $dark_color;
-  //   transition: background 300ms;
-  //   cursor: pointer;
-  // }
+
   [type="checkbox"]:checked {
     filter: brightness(0.8);
   }
-  // [type="checkbox"]:checked {
-  //   background-color: darken($primary_color, 10%);
-  // }
 }
-
-// #btn_check_1 {
-//   width: 2rem;
-//   height: 2rem;
-// }
-// #btn_check_2 {
-//   width: 2.5rem;
-//   height: 2.5rem;
-// }
-// #btn_check_3 {
-//   width: 3rem;
-//   height: 3rem;
-// }
 
 .button_check {
   position: relative;
@@ -519,20 +493,21 @@
   height: 40px !important;
   background-color: $alt_color !important;
 }
+//
+//
+// Radio Buttons
+//
+
 .radio_buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   box-shadow: none;
-  // border: 1px solid #000;
-  // border-radius: 1rem;
-
   overflow: hidden;
   input[type="radio"] {
     appearance: none;
     display: none;
   }
-
   label {
     color: #fff;
     padding: 0.8rem 1.4rem;
@@ -542,33 +517,33 @@
     cursor: pointer;
     user-select: none;
     overflow: hidden;
-    // border-radius: 1rem;
+    // border-radius: 0.25rem;
   }
+
   input[type="radio"]:checked + label {
-    opacity: 1;
-    color: #ffffff;
-    // font-weight: 600;
+    filter: brightness(95%);
+    // filter: contrast(95%);
+    color: $white_color;
     transition: 0.3s;
   }
 }
 .first_row {
   input[type="radio"] + label {
-    opacity: 0.8;
     background-color: lighten($primary_color, 5%);
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 0.4rem;
   }
 }
 .second_row {
   input[type="radio"] + label {
     background-color: lighten($warning_color, 5%);
-    padding: 1rem 2rem;
+    padding: 0.5rem 0.7rem;
     color: #000;
   }
 }
 .third_row {
   input[type="radio"] + label {
     background-color: lighten($dark_color, 5%);
-    padding: 1rem 2.5rem;
+    padding: 0.5rem 1rem;
   }
 }
 
@@ -602,7 +577,7 @@
 .cards_section__cards .loading #success {
   background-color: $success_color;
 }
-.cards_section__cards .btn_solid #info {
+.cards_section__cards .loading #info {
   background-color: $info_color;
 }
 .cards_section__cards .loading #warning {
