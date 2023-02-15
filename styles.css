@@ -288,12 +288,16 @@ body {
   display: flex;
   flex: 0 0 50%;
   min-width: 50%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
 }
 
+@media screen and (max-width: 720px) {
+  .cards_section__cards {
+    flex: 0 0 100%;
+  }
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -773,6 +777,12 @@ h4 {
   background-color: #2851ba;
 }
 
+@media screen and (max-width: 720px) {
+  .wider_sizing {
+    flex-direction: row;
+    flex: 0 0 100%;
+  }
+}
 .wider_sizing {
   flex-direction: column;
   flex: 0 0 50%;
@@ -840,7 +850,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .button_check label {
@@ -911,7 +920,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   overflow: hidden;
 }
@@ -942,7 +950,6 @@ h4 {
   justify-content: center;
   flex: 0 0 100%;
   min-width: 50%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
@@ -1331,7 +1338,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .button_check label {
@@ -1422,7 +1428,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   overflow: hidden;
 }
@@ -1469,7 +1474,6 @@ h4 {
   justify-content: center;
   flex: 0 0 100%;
   min-width: 50%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
@@ -1868,7 +1872,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .button_check label {
@@ -1959,7 +1962,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   overflow: hidden;
 }
@@ -2006,7 +2008,6 @@ h4 {
   justify-content: center;
   flex: 0 0 100%;
   min-width: 50%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
@@ -2405,7 +2406,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .button_check label {
@@ -2496,7 +2496,6 @@ h4 {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   overflow: hidden;
 }
@@ -2543,7 +2542,6 @@ h4 {
   justify-content: center;
   flex: 0 0 100%;
   min-width: 50%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
@@ -2644,4 +2642,21 @@ h4 {
 .cards_section__cards .dashed_loading #dark:hover {
   background-color: #343a40;
   color: #fff;
+}
+
+.bg-danger {
+  padding: 1rem;
+  background-color: #d92550;
+}
+
+.outline-tab {
+  display: none;
+}
+
+.outline-2x-tab {
+  display: none;
+}
+
+.dashed-tab {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */

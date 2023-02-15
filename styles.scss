@@ -87,3 +87,19 @@ body {
   }
 }
 @import "main";
+.bg-danger {
+  padding: 1rem;
+  background-color: $danger_color;
+}
+// .solid-tab {
+//   visibility: visible;
+// }
+.outline-tab {
+  display: none;
+}
+.outline-2x-tab {
+  display: none;
+}
+.dashed-tab {
+  display: none;
+}

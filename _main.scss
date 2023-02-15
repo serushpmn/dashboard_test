@@ -10,6 +10,11 @@
   height: fit-content;
   padding: 10px;
 }
+@media screen and (max-width: 720px) {
+  .cards_section__cards {
+    flex: 0 0 100%;
+  }
+}
 .card {
   display: flex;
   flex-direction: column;

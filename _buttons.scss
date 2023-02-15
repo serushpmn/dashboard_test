@@ -381,6 +381,12 @@
 }
 
 //wider sizing starts here
+@media screen and (max-width: 720px) {
+  .wider_sizing {
+    flex-direction: row;
+    flex: 0 0 100%;
+  }
+}
 .wider_sizing {
   flex-direction: column;
   flex: 0 0 50%;
